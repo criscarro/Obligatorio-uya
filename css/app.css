@@ -1,0 +1,41 @@
+:root {
+    --primario: #19292d;
+    --secundario: #8ebddc;
+    --fuente:    'Arial Black', sans-serif;
+}
+/* body {
+    font-family: var(--fuente);
+    /* background-color: rgb(36, 28, 58) !important; */
+
+body {
+  font-family: var(--fuente);
+  background-color: rgb(249, 249, 249) !important;
+}
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  background-color: var(--bs-body-bg);
+}
+.header {
+   background-color: var(--primario);
+
+}
+
+.header h1 {
+    color: var(--secundario);
+    font-family: "Arial";
+}
+.header p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.heading {
+    color: black;
+}
+.card {
+    background-color: #2a2139 !important;
+    border: 1px solid #3d3254 !important;
+    color: #ffffff !important;
+}
+
