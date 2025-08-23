@@ -75,4 +75,37 @@ body {
     height: 30px;
     object-fit: contain;
 }
+.footer {
+    background-color: var(--primario) !important;
+    color: white !important;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.footer-logo {
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.footer h3 {
+    color: var(--secundario);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+/* Asegurar que el texto sea blanco en todo el footer */
+.footer,
+.footer *:not(h3) {
+    color: white !important;
+}
+
+.footer h3 {
+    color: var(--secundario) !important;
+}
 
