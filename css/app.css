@@ -108,4 +108,80 @@ body {
 .footer h3 {
     color: var(--secundario) !important;
 }
+/* Estilos para la tabla accesible */
+.tabla {
+    margin: 2rem 0;
+    padding: 1rem 0;
+}
 
+.accesible-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background-color: #00000000;
+    color: #000000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.accesible-table caption {
+    caption-side: top;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.75rem;
+    color: #8ebddc;
+    background-color: #19292d;
+}
+
+.accesible-table th,
+.accesible-table td {
+    padding: 0.75rem;
+    text-align: center;
+    border: 1px solid #3d325400;
+}
+
+.accesible-table th {
+    background-color: #19292d;
+    color: #e1e4e6;
+    font-weight: bold;
+}
+
+
+
+.accesible-table button {
+    background-color: #8ebddc;
+    color: #19292d;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Mejoras de accesibilidad */
+.accesible-table th[scope="col"],
+.accesible-table th[scope="row"] {
+    font-weight: bold;
+}
+
+/* Responsividad para dispositivos móviles */
+/* @media (max-width: 768px) {
+    .accesible-table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    .accesible-table caption {
+        font-size: 1rem;
+    }
+    
+    .accesible-table th,
+    .accesible-table td {
+        padding: 0.5rem;
+    }
+} */
