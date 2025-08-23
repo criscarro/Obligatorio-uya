@@ -39,3 +39,27 @@ body {
     color: #ffffff !important;
 }
 
+/* .header-with-logo {
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    height: 60vh;  Ocupa 60% de la altura de la pantalla 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;  Evita que la imagen se desborde 
+} */
+.header-logo {
+    max-width: 80%;
+    max-height: 70vh; /* Limita la altura máxima */
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Ajustar sección de navegación para que esté debajo */
+.seccion {
+    margin-top: 2rem;
+}
+
