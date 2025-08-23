@@ -14,24 +14,43 @@
         <h1 class="text-center">Accessibility</h1>
     </header>
 
-        <section class="seccion">
+    <section class="seccion">
+        
+        <button class="btn menu-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu">
+            <img src="/img/menu-de-tres-lineas.png" alt="Menú" class="menu-icon-img">
+        </button>
 
-        <div class="container-xl">
-            <ul class="nav flex-column flex-md-row justify-content-evenly">
+        <div id="menu" class="offcanvas offcanvas-start">
+            <div class="offcanvas-header">
+                <h2 class="offcanvas-title">Level Up</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+                <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link active border rounded border-primary p-2" href="../home.html">Inicio</a>
+                        <a href="../home.html" class="nav-link">Inicio</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link border rounded border-primary p-3" href="#">Perifericos</a>
-                    </li> -->
+                    <br>
+                    <h2>categorias</h2>
+                    <br>
                     <li class="nav-item">
-                        <a class="nav-link border rounded border-primary p-2" href="./consolas.html">Consolas</a>
+                        <a href="./noticias.html" class="nav-link">Noticias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link border rounded border-primary p-2" href="./comunidad.html">Comunidad</a>
+                        <a href="./consolas.html" class="nav-link">Consolas</a>
                     </li>
-            </ul>
+                    <li class="nav-item">
+                        <a href="./perifericos.html" class="nav-link">erifericos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./comunidad.html" class="nav-link">Comunidad</a>
+                    </li>
+                    
+                </ul>
+            </div>
         </div>
+
     </section>
 
 
@@ -91,16 +110,42 @@
             </div>
         </div>
     </section>
-    
-    
-    
-    
-    
-    
-    
-    
-    <footer>
-        <p>© Level-up</p>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Columna 1: Logo -->
+                <div class="col-md-4 text-center">
+                    <img src="../img/Logo.png" alt="Logo Level Up Accessibility" class="footer-logo">
+                </div>
+                
+                <!-- Columna 2: Información de contacto -->
+                <div class="col-md-4 text-center my-5">
+                    <h3 class="text-center">Empresa</h3>
+                    <p>Dirección: Rincón 232</p>
+                    <p>Teléfono: 4552 1865</p>
+                    <p>Celular: 092678767</p>
+                    <p>Email: LevelUp@gmail.com</p>
+                </div>
+                
+                <!-- Columna 3: Información sobre nosotros -->
+                <div class="col-md-4 my-5">
+                    <h3 class="text-center">Nosotros</h3>
+                    <p>En Level Up Accessibility trabajamos para que el mundo gamer sea inclusivo para todas las personas.
+                    Compartimos noticias, analizamos consolas y recomendamos periféricos diseñados con accesibilidad 
+                    en mente. Nuestro compromiso es brindar información clara, actualizada y enfocada en la diversidad 
+                    de jugadores, porque creemos que todos merecen vivir la experiencia de jugar sin barreras.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mt-3">
+                    <p>© Level-up</p>
+                </div>
+            </div>
+        </div>
     </footer>
+    
+ 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
