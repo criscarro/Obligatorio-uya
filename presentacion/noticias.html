@@ -9,14 +9,16 @@
 
 <body>
     <header class="header p-3 mb-3">
-        <h1 class="text-center" aria-labelledby="nombre-titulo">Level Up</h1>
-        <h1 class="text-center">Accessibility</h1>
+        <div class="text-center">
+        <img class="logo-universal" src="../img/LogoNoticias.png" alt="">
+        </div>
     </header>
 
     <section class="seccion">
         <button class="btn menu-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu">
             <img src="/img/menu-de-tres-lineas.png" alt="Menú" class="menu-icon-img">
         </button>
+       
 
         <div id="menu" class="offcanvas offcanvas-start">
             <div class="offcanvas-header">
@@ -49,21 +51,20 @@
     </section>
 
     <section class="Noticias">
-        <h1 class="text-center my-5 heading">Noticias</h1>
+        
 
-        <!-- Botones para mostrar/ocultar categorías de noticias -->
         <div class="container text-center mb-4">
-            <button class="btn btn-primary m-2" type="button" data-bs-toggle="collapse" data-bs-target="#noticiasRecientes" aria-expanded="true" aria-controls="noticiasRecientes">
+            <button class="btn btn-outline-primary m-2" type="button" data-bs-toggle="collapse" data-bs-target="#noticiasRecientes" aria-expanded="true" aria-controls="noticiasRecientes">
                 Noticias Recientes
             </button>
-            <button class="btn btn-primary m-2" type="button" data-bs-toggle="collapse" data-bs-target="#noticiasPopulares" aria-expanded="false" aria-controls="noticiasPopulares">
+            <button class="btn btn-outline-primary m-2" type="button" data-bs-toggle="collapse" data-bs-target="#noticiasPopulares" aria-expanded="false" aria-controls="noticiasPopulares">
                 Noticias Populares
             </button>
         </div>
 
 
         <div class="container-xl">
-            <!-- Noticias Recientes -->
+            
             <div class="collapse show" id="noticiasRecientes" data-bs-parent=".Noticias">
                 <h2 class="text-center mb-4">Noticias Recientes</h2>
                 <div class="row">
@@ -101,7 +102,7 @@
                 </div>
             </div>
 
-            <!-- Noticias Populares -->
+            
             <div class="collapse" id="noticiasPopulares" data-bs-parent=".Noticias">
                 <h2 class="text-center mb-4">Noticias Populares</h2>
                 <div class="row">

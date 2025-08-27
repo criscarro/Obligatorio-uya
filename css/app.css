@@ -75,6 +75,13 @@ body {
     height: 30px;
     object-fit: contain;
 }
+.logo-universal{
+    max-width: 20%;
+    max-height: 30vh; /* Limita la altura máxima */
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
 .footer {
     background-color: var(--primario) !important;
     color: white !important;
