@@ -154,7 +154,9 @@ body {
     color: #e1e4e6;
     font-weight: bold;
 }
-
+.accesible-table caption{
+    color: #e1e4e6;
+}
 
 
 .accesible-table button {
