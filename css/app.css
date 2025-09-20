@@ -39,8 +39,8 @@ body {
     flex-direction: column;
 }
 .card {
-    background-color: #2a2139 !important;
-    border: 1px solid #3d3254 !important;
+    background-color: #19292d !important;
+    border: 1px solid #000000 !important;
     color: #ffffff !important;
     height: 100%;
 }
@@ -167,7 +167,9 @@ body {
     color: #e1e4e6;
     font-weight: bold;
 }
-
+.accesible-table caption{
+    color: #e1e4e6;
+}
 
 
 .accesible-table button {
